@@ -3,5 +3,5 @@ When running the more complicate OLTP tests included, it has been known to some 
 
 >SysBench，开源测试工具，最初用于对mysql进行压测，当然也可以用于一些低级别的 CPU以及I/O性能测试
 
->对于Postgresql而言，Sysbench对于lock的处理有些问题。 不过，对于read-only的库，其可以正确工作。
+>对于Postgresql而言，Sysbench对于lock的处理有些问题。 不过，对于read-only的库，it works fine .
 
